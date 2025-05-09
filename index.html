@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Portifólio Lorrane Silva</title>
+</head>
+
+<body>
+    <header class="header-entrada">
+        <h2 class="logo"><span class="texto-degrade">LS.</span></h2>
+
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+
+        <div class="menu-overlay" id="menu-overlay" onclick="toggleMenu()"></div>
+
+
+        <nav class="nav" id="nav-menu">
+            <button class="close-btn" onclick="toggleMenu()">✖</button>
+            <ul>
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#habilidades" onclick="toggleMenu()">Habilidades</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Soft-Skills</a></li>
+                <li><a class="contato-btn" href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </ul>
+        </nav>
+
+        <ul class="links-descktop">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#skills">Soft Skills</a></li>
+            <li class="border"><a href="#contato">Contato</a></li>
+        </ul>
+    </header>
+
+
+    <div class="overlay" id="overlay"></div>
+    <main>
+        <section id="home">
+            <div class="flex">
+
+                <div id="particles-js"></div>
+
+                <div class="home-container">
+                    <div class="topo-home">
+                        <div class="topo-site"> <br> <br>
+                            <div class="slide-in-left">
+                                <h1>Olá, meu nome é <span class="texto-degrade" class="lorrane">Lorrane</span></h1>
+                                <h2>Sou <span class="texto-degrade" id="typing"></span></h2>
+                                <p class="slogan">Desenvolvendo hoje as soluções que transformarão o amanhã.</p>
+                            </div>
+                        </div>
+
+                        <div class="arrow-down" id="animated-image">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="image-conteiner">
+                        <img id="animated-image" src="img/minhafotoprofissional2.PNG" alt="Minha foto">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-in-left">
+                <div class="social-icons">
+                    <a href="https://github.com/LoohSilva" class="github" target="_blank" rel="noopener"
+                        title="meu github"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lorranesilva1052" class="linkedin" target="_blank"
+                        rel="noopener" title="meu linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:Lorrane.silva1052@gmail.com" class="gmail"><i class="fas fa-envelope"
+                            title="meu e-mail"></i></a>
+                    <a href="https://wa.me/5521966034883" class="whatsapp" target="_blank" rel="noopener"
+                        title="meu whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        </section>
+
+
+        <div class="background-color">
+
+            <section id="sobre">
+                <div class="conteudo">
+                    <div class="texto-sobre">
+                        <h2 class="title">Sobre <span class="texto-degrade">mim</span></h2>
+                        <hr class="linha-elegante">
+                        <p>
+                            Sou <strong class="texto-degrade">Lorrane Rodrigues Silva</span></strong>, estudante de
+                            <strong class="texto-degrade">Ciência da Computação</strong> e apaixonada por tecnologia.
+                            Estou me especializando em <strong class="texto-degrade">Desenvolvimento Full Stack</strong>
+                            e criando projetos com <strong class="texto-degrade">HTML, CSS e JavaScript</strong> durante
+                            minha formação.
+                        </p>
+                        <p>
+                            Atualmente, estudo <strong class="texto-degrade">TypeScript, Sass, Bootstrap, React,
+                                Next.js, Node.js, MongoDB e SQL</strong>, sempre buscando aprendizado contínuo para me
+                            tornar uma desenvolvedora completa.
+                        </p>
+                        <p>
+                            Meu objetivo é aplicar meus conhecimentos para criar soluções inovadoras e contribuir para o
+                            crescimento da empresa com dedicação e criatividade.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <img class="imagem-sobre" src="img/iamac.PNG" alt="Foto de Lorrane Silva">
+
+        </section>
+
+
+        <section id="habilidades" class="sessao-habilidades">
+            <h2> <span class="texto-degrade">Habilidades</span></h2>
+            <hr class="linha-elegante">
+            <div class="habilidades-container">
+                <i class="fab fa-html5 html-icon"></i>
+                <i class="fab fa-css3-alt css-icon"></i>
+                <i class="fab fa-js-square js-icon"></i>
+            </div>
+        </section>
+
+
+
+        <section id="projetos" class="sessao-projetos">
+            <h2><span class="texto-degrade">Projetos</span></h2>
+            <hr class="linha-elegante">
+            <div class="projetos-container">
+
+
+                <div class="card-projeto">
+                    <img src="img/captura de tela portifolio.png" alt="Imagem do Projeto 1">
+                    <div class="descricao-projeto">
+                        <p>Portfólio Pessoal — Projeto desenvolvido com HTML, CSS e JavaScript, totalmente responsivo.
+                            Exibe informações sobre mim, habilidades e projetos. Foco em design moderno e navegação
+                            fluida.
+                        </p>
+                        <a href="#home" target="_blank" rel="noopener"
+                            title="Projeto citações">Ver
+                            Projeto</a>
+                    </div>
+                </div>
+
+                <div class="card-projeto">
+                    <img src="img/projeto citacoes.png" alt="Imagem do Projeto 1">
+                    <div class="descricao-projeto">
+                        <p>Gerador de Citações Motivacionais — Projeto em HTML, CSS e JavaScript focado em lógica com
+                            exibição aleatória de frases via clique. Treino de arrays, condições (if/else) e manipulação
+                            do DOM.
+
+                        </p>
+                        <a href="https://loohsilva.github.io/Gerador-cita-oes/" target="_blank" rel="noopener"
+                            title="Projeto citações">Ver
+                            Projeto</a>
+                    </div>
+                </div>
+
+
+                <div class="card-projeto">
+                    <img src="img/projeto pizzaria.png" alt="Imagem do Projeto 2" title="Projeto pizzaria">
+                    <div class="descricao-projeto">
+                        <p>Site de Pizzaria – Alessio’s — Projeto fictício com HTML e CSS, focado em design responsivo e
+                            UX. Inclui cardápio interativo, seção “Sobre Nós” e área de contato simulando app real.</p>
+                        <a href="https://loohsilva.github.io/Pizzaria-Alessios/" target="_blank" rel="noopener">Ver
+                            Projeto</a>
+                    </div>
+                </div>
+
+                <div class="card-projeto">
+                    <img src="img/projeto nike.png" alt"Projeto nike" title="Projeto nike">
+                    <div class="descricao-projeto">
+                        <p>Nike Color Switch — Projeto Interativo
+                            Página de produto com botão de troca de cor via JavaScript. Simulação de interação real de
+                            e-commerce com foco em UI moderna e dinâmica.</p>
+                        <a href="https://loohsilva.github.io/Nike/" target="_blank" rel="noopener">Ver
+                            Projeto</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="soft-skills-bg">
+            <div class="soft-skills">
+                <h2 class="texto-degrade">Soft Skills</h2>
+                <hr class="linha-elegante">
+                <p class="intro">Nem só de código vive uma dev. Aqui estão as habilidades que me ajudam a trabalhar bem
+                    em qualquer time, em qualquer projeto.</p>
+                <ul class="soft-list">
+                    <li><strong>Comunicação clara:</strong> Explico ideias técnicas sem enrolar.</li>
+                    <li><strong>Trabalho em equipe:</strong> Me dou bem com todos e colaboro de verdade.</li>
+                    <li><strong>Resiliência:</strong> Levo erro como aprendizado e sigo firme.</li>
+                    <li><strong>Organização:</strong> Meus códigos e tarefas são sempre na linha.</li>
+                    <li><strong>Proatividade:</strong> Não espero mandarem, já vou lá e faço.</li>
+                    <li><strong>Empatia:</strong> Entendo o outro, porque tecnologia é feita pra gente, não só pra
+                        máquina.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="titulo-contato"> <span class="texto-degrade">Entre em Contato</span></h2>
+            <hr class="linha-elegante">
+            <div class="formulario-container">
+                <form id="formContato">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem"></textarea>
+
+                    <button type="submit" class="btn-contato" onclick="enviarWhatsApp()">Enviar para WhatsApp</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    </div>
+    <footer>
+        <p>Copyright © 2025 by Lorrane Silva | All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
